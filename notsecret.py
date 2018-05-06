@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from .utils.chat_formatting import *
+from .utils import checks
 
 class notsecret:
 	"""port of miscellaneous commands from notsecret irc bot"""
