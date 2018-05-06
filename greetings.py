@@ -2,7 +2,6 @@ from random import choice
 
 import discord
 from discord.ext import commands
-from .utils.chat_formatting import *
 
 class greetings:
 	"""daily greetings"""
