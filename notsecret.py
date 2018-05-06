@@ -9,6 +9,15 @@ class notsecret:
 		self.bot = bot
 
 	@commands.command()
+	async def echo(self, message):
+		await self.bot.say(message)
+
+	@commands.command()
+	async def echo_embed(self, description, color=0x00C0FF):
+		embed = discord.Embed(colour=color, description=description)
+		await self.bot.say(embed=embed)
+
+	@commands.command()
 	async def idm(self):
 		msg = 'https://scdn.cloud/9HX8bWWuCHKwVfMRlKDmUQ.jpg'
 		await self.bot.say(msg)
