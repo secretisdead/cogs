@@ -174,7 +174,7 @@ class portraits:
 
 	@commands.command()
 	async def tantrum(self):
-		msg = choice(choices = [
+		msg = choice([
 			'https://cdn.discordapp.com/attachments/294489965424017408/385942369326858242/image.jpg',
 			'https://scdn.cloud/0mJPcLlW_L5NWWGocl8Khw.jpg',
 			'https://scdn.cloud/KamY0-huSvgJ8AGogv5UaQ.png',
