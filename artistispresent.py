@@ -119,6 +119,7 @@ class portraits:
 	async def dirk(self):
 		msg = choice([
 			'https://scdn.cloud/UrxvmGETN96Y6xRwUTz1lg.jpg',
+			'https://scdn.cloud/78Xoyx_m5pj2Aa7w21Iubg.jpg',
 		])
 		await self.bot.say(msg)
 
