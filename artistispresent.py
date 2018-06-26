@@ -204,5 +204,12 @@ class portraits:
 		])
 		await self.bot.say(msg)
 
+	@commands.command()
+	async def xuliaxis(self):
+		msg = choice([
+			'https://scdn.cloud/IJuc3kNHZtcPnKvIS4XiYw.jpg',
+		])
+		await self.bot.say(msg)
+
 def setup(bot):
 	bot.add_cog(portraits(bot))
