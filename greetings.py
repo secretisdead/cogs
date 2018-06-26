@@ -35,7 +35,7 @@ class greetings:
 
 	@commands.command()
 	async def goodmorning(self):
-		msg = ([
+		msg = choice([
 			'https://scdn.cloud/0cwdyIe3MIPajWFNGjeklg.jpg',
 			'https://scdn.cloud/R6MndlfDehH19XcctRQKyw.jpg',
 			'https://scdn.cloud/-O3AGkT9sUWzvo8PhtRNRA.gif',
